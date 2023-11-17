@@ -1,0 +1,195 @@
+/* Estilos para el cuerpo del documento */
+body { 
+    background-color: rgb(254, 255, 255);  
+    background-attachment: fixed;  
+} 
+
+/* Estilos para las secciones del documento */
+section {
+    position: relative;
+    height: 400px; /* Altura específica */
+    background-image: url('./Imagenes/kinesiología-825x360.png');
+}
+
+/* Estilos específicos para la sección de testimonios */
+section#testimonios {
+    background-image: none; 
+    text-align: center; 
+}
+
+section#testimonios h2 {
+font-size: 40px;
+background-image: none; 
+height: auto;
+font-weight: normal;
+font-size:larger;
+font-weight: bold;
+}
+
+section#testimonios p {
+    background-image: none; 
+    height: auto;
+    font-weight: normal;
+    font-size:larger;
+    color: black;
+}
+
+/* Estilos para el título (nombre del instituto) */
+h1 {
+    color: rgb(28, 39, 200);
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Estilos para encabezados h3 */
+h3 {
+    color: rgb(8, 62, 124);
+    text-align: center;
+}
+
+h2 { 
+    background-color: indianred;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Estilos para la barra de navegación */
+nav {   
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-end; /* Ajusta para alinear al lado derecho */
+    align-items: center; /* Alinea elementos verticalmente al centro */
+    background-color: rgb(207, 76, 76);
+    padding: 0; /* Elimina el espacio interno predeterminado */
+}
+
+nav ul {
+    list-style: none; /* Elimina las viñetas de la lista */
+    display: flex;
+    justify-content: flex-end; /* Ajusta para alinear al lado derecho */
+    align-items:normal/* 
+    margin: 0; /* Elimina el margen predeterminado */
+}
+
+nav li {
+    margin-right: 15px; /* Espacio entre elementos de la barra de navegación */
+    font-size: 18px; /* Tamaño de la letra */
+}
+
+/* Estilos para el contenido principal */
+main {
+    margin-top: 5%;
+}
+
+/* Estilos para el encabezado */
+header { 
+    display: flex;
+    background-color: rgb(207, 76, 76);
+}
+
+/* Detalles de testimonios */
+.testimonio h3 {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.testimonio p {
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+    background-color: #000;
+    background-color: #3498db;
+}
+
+/* Media query para pantallas más chicas */
+@media (max-width: 600px) {
+    body {
+        background-image: none; 
+    }
+    
+    section {
+        height: auto;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+    
+    nav {
+        width: 100%;
+        height: auto;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li { 
+        display: block;
+        text-align: center;
+    }
+}
+
+/* Agrega estilos para el formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px; /* ancho  */
+    margin: auto; /* centrado */
+}
+
+/* Estilos adicionales para las etiquetas y los campos de entrada */
+form label {
+    margin-bottom: 5px; /* Espacio entre etiquetas y campos de entrada */
+}
+
+form input,
+form textarea {
+    margin-bottom: 15px; /* Espacio entre campos de entrada y el siguiente */
+}
+
+/* Estilos para el pie de página */
+footer {
+    width: 100%;
+    height: 100px;
+    margin: 10px;
+    grid-area: header;
+    background: rgb(207, 76, 76);
+    color: rgb(0, 0, 0);
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    animation-name: mianimacion;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-direction: reverse; 
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+/* Agrega estilos para el formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px; /* ancho  */
+    margin: auto; /* centrado */
+}
+
+
+
+/* Animación cambiar de color */
+@keyframes mianimacion {
+    0% {background: darkorange;}
+    25% {background: red;}
+    50% {background: green;}
+    75% {background: pink;}
+    100% {background: blue;}
+}
+
+
+
+
+
+
+
