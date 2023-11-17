@@ -1,1 +1,94 @@
-# Proyecto-final
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KINEMOV</title>
+    <link rel="stylesheet" href="../css/styless.css">
+    <script src="../js/script.js"></script>
+</head>
+<body>
+    <!-- ENCABEZADO -->
+    <header>
+        <!-- Logo e hipervínculo al inicio -->
+        <a href="#"> <img class="logo" src="../Imagenes/logo-de-manos.png" width="70px" > </a>
+        
+        <!-- BARRA DE NAVEGACION: 3 OPCIONES -->
+        <nav> 
+            <ul> 
+                <!-- Enlace a la página de Turnos -->
+                <li><a href="https://wa.me/2473462150">Turnos</a></li> 
+                <!-- Enlace a la página de Servicios -->
+                <li> <a href="../html/Servicios.html"> Servicios </a> </li>
+                <!-- Enlace a la página de Quienes Somos -->
+                <li> <a href="../html/Quienes somos.html"> Quienes somos </a> </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+        <!-- TITULO (NOMBRE DEL INSTITUTO) -->
+        <h1>KineMov</h1>
+        
+        <!-- SECCIÓN -->
+        <section> 
+            <!-- Contenedor flexible para organizar contenido -->
+            <div class="flex-container"> 
+            </div>
+        </section> 
+
+        <!-- Sección de Testimonios  -->
+<section id="testimonios">
+    <h2>TESTIMONIOS DE PACIENTES</h2>
+    <div id="lista-testimonios" class="lista-testimonios">
+        <div class="testimonio testimonio-1">
+            <h3>Juana Perez</h3>
+            <p>Son un excelente equipo. Trabajan seriamente y demuestran ser muy apasionados en lo que hacen. No descansan hasta que encuentran el problema.</p>
+        </div>
+        <div class="testimonio testimonio-2">
+            <h3>Roberto Carlos</h3>
+            <p>¿Qué puedo decir? Gracias x curarme y ayudarme a mejorar siempre. El centro de kinesiología más completo y con la mejor energía. ¡Gracias x tanto!</p>
+        </div>
+        <div class="testimonio testimonio-3">
+            <h3>Teresa Juan</h3>
+            <p>Un placer atenderme con ustedes, son grandes profesionales.</p>
+        </div>
+    </div>
+</section>
+    </main>
+    
+    <!-- FORMULARIO -->
+    <h2>CONTACTO</h2>
+
+<p>En KineMov queremos estar cerca de nuestros pacientes. Envíanos tu consulta y nuestro equipo se contactará a la brevedad.</p>
+
+<form>
+    <label for="nombre">Nombre (requerido)</label>
+    <input type="text" id="nombre" name="nombre" required autocomplete="name">
+
+    <label for="email">Correo electrónico (requerido)</label>
+    <input type="email" id="email" name="email" required autocomplete="email">
+
+    <label for="asunto">Asunto</label>
+    <input type="text" id="asunto" name="asunto" autocomplete="subject">
+
+    <label for="mensaje">Mensaje</label>
+    <textarea id="mensaje" name="mensaje" autocomplete="message"></textarea>  
+
+    <input type="submit" value="Enviar">
+</form>
+
+
+    <!-- PIE DE PÁGINA -->
+    <footer id="footer"> 
+        <!-- Imagen del pie de página -->
+        <img src="../Imagenes/logo-de-manos.png" width="90px" height="100" alt="kinesiologia" >
+        <!-- Texto de derechos reservados -->
+        <div>Todos los derechos reservados. </div> 
+    </footer>
+
+    <!-- DIV ANIMACION -->
+    <div id="cuadrado"> </div> 
+</body>
+</html>
