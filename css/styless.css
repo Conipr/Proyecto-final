@@ -8,7 +8,7 @@ body {
 section {
     position: relative;
     height: 400px; /* Altura específica */
-    background-image: url('./Imagenes/kinesiología-825x360.png');
+    background-image: url('../Imagenes/kinesiología-825x360.png');
 }
 
 /* Estilos específicos para la sección de testimonios */
@@ -131,7 +131,7 @@ header {
     }
 }
 
-/* Agrega estilos para el formulario */
+/* estilos para el formulario */
 form {
     display: flex;
     flex-direction: column;
@@ -168,7 +168,7 @@ footer {
     animation-iteration-count: infinite;
 }
 
-/* Agrega estilos para el formulario */
+/* estilos para el formulario */
 form {
     display: flex;
     flex-direction: column;

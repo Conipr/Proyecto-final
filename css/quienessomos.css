@@ -1,8 +1,10 @@
+/* Estilos para el cuerpo del documento */
 body {
     background-color: var(--light);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Estilos para la lista de elementos kine */
 .kine-list {
     list-style: none;
     padding: 0;
@@ -11,26 +13,30 @@ body {
     justify-content: space-around;
 }
 
+/* Estilos para cada elemento individual en la lista kine */
 .kine-item {
     flex: 0 0 30%; /* Define el ancho de cada cuadro según tus preferencias */
     margin: 10px;
     text-align: center;
-    background-color: #fff; /* Agregamos un fondo blanco */
+    background-color: #fff; /* fondo blanco */
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
+/* Estilos para el contenido interno de cada cuadro kine */
 .kine-box {
     text-align: center;
     padding: 10px;
 }
 
+/* Estilos para la imagen dentro del cuadro kine */
 .kine-image img {
     display: block;
     margin: 0 auto;
     border-radius: 50%; /* Forma circular */
 }
 
+/* Estilos para el texto dentro del cuadro kine */
 .kine-text {
     text-align: center;
     padding-top: 10px; /* Espacio entre imagen y texto */
